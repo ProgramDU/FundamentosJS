@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas de tareas JS</title>
+    <style>
+        body{
+            color: rgb(134, 26, 161);
+            text-align: center;
+            font-family: monospace ;
+            text-shadow: 2px 2px 7px rgb(146, 137, 155);
+
+        }
+
+        textarea {
+            margin: auto;
+            width: 50%;
+            border: 3px solid rgb(153, 107, 228);
+            padding: 10px;
+            text-align: center;
+            display: block;
+            background-color: rgb(235, 217, 224);
+
+
+
+
+        }
+        button {
+            color:rgb(234, 231, 236);
+            text-align: center;
+            border: 1px solid rgb(120, 113, 216);
+            background-color: rgb(144, 138, 223);
+            font-family: fantasy;
+            transition-duration: 0.4s;
+            color: white;
+
+        }
+        div{
+            background-color:rgb(238, 216, 237);
+            text-align: center;
+        }
+
+        ul{
+            list-style: square;
+            list-style-position: inside;
+            padding: 20px;
+            color: rgb(87, 82, 155);
+            background: #aaacd6;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> Listas de tareas</h1>
+        <div class="formulario"></div>
+        <textarea name="" id="inputTarea" cols="30" rows="10"></textarea>
+        <button onclick="addTarea()">Agregar Tarea</button>
+    </div>
+    <div id="tareas">
+        <ul>
+
+        </ul>
+    </div>
+    <script src="./tareas.js"></script>
+</body>
+</html>

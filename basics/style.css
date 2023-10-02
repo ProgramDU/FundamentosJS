@@ -1,0 +1,62 @@
+h1{
+    
+    margin: auto;
+    color: black;
+    background-color: antiquewhite;
+    width: 300px;
+    height: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+
+
+}
+.container{
+    margin: auto;
+    padding: 50px;
+    background-color: rosybrown;
+    width: 200px;
+    height: 100px;
+
+    
+}
+
+#num1{
+    padding: 5px;
+    background-color: beige;
+    width: 50px;
+    text-align: center;
+    border-radius: 2px;
+
+}
+
+#num2{
+    padding: 5px;
+    background-color: beige;
+    width: 50px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+#result{
+    margin:0 auto;
+    padding: 5px;
+    background-color: beige;
+    width: 60px;
+    text-align: center;
+    border-radius: 2px;
+    display: flex;
+}
+
+button{
+    background-color: rgb(209, 180, 180);
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+
+
+
